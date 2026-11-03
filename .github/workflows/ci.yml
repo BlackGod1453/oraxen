@@ -63,7 +63,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Oraxen-Plugin
-          path: "**/build/libs/*-all.jar"
-
-
-
+          path: "winder/build/libs/*.jar"
